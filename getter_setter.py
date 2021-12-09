@@ -11,11 +11,7 @@ class ListadoBebidas():
     def bebida(self, bebida):
         self.__bebida = bebida
         
-bebidas = ListadoBebidas()
-print(bebidas.bebida)
 
-bebidas.bebida = 'Manzana'
-print(bebidas.bebida)
 
 
 class Perro:
@@ -32,8 +28,5 @@ class Perro:
         self.__nombre = nombre
         
 
-perro1 = Perro("Orión", 20)
-print(perro1.nombre)
-perro1.nombre = "Canela"
-print(perro1.nombre)
+
          

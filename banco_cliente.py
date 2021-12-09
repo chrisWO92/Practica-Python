@@ -38,9 +38,7 @@ class Banco:
         self.cliente3.imprimir()
         print("El total es de {}".format(total))
     
-banco = Banco()
-banco.operar()
-banco.depositos_totales()
+
     
         
         
